@@ -11,6 +11,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { HomeModule } from './home/home.module';
 import { CompanyModule } from './company/company.module';
+import {CarouselModule} from 'primeng/carousel';
+import { AboutModule } from './about/about.module';
+
 
 @NgModule({
   declarations: [
@@ -22,11 +25,13 @@ import { CompanyModule } from './company/company.module';
     SharedModule,
     HomeModule,
     CompanyModule,
+    AboutModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
     MatMenuModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
