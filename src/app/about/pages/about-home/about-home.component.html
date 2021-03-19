@@ -5,23 +5,20 @@
             <div class="col-sm">
                 <img src="../../../../assets/images/home/me.jpg" class="rounded float-start img-fluid" alt="...">
             </div>
-            <div class="col-sm">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page">
-                          <app-about-me></app-about-me>
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                  </ul>
+            <div class="col-sm mt-5 pt-5">
+              <ul class="uk-subnav uk-subnav-pill" uk-switcher>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Item</a></li>
+                <li><a href="#">Item</a></li>
+            </ul>
+            
+            <ul class="uk-switcher uk-margin">
+                <li>
+                  <app-about-me></app-about-me>
+                </li>
+                <li>Hello again!</li>
+                <li>Bazinga!</li>
+            </ul>
             </div>
         </div>
     </div>
