@@ -7,14 +7,16 @@ import { ROBEMEXProjectsComponent } from './company/pages/robemex-projects/robem
 import { HomeComponent } from './home/components/home/home.component';
 import { TatichstudioProjectsComponent } from './company/pages/tatichstudio-projects/tatichstudio-projects.component';
 import { AboutHomeComponent } from './about/pages/about-home/about-home.component';
+import { SkillsHomeComponent } from './skills/pages/skills-home/skills-home.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
+  {path:'about', component:AboutHomeComponent},
+  {path:'skills', component:SkillsHomeComponent},
   {path:'companies', component:CompanyHomeComponent},
   {path:'companies/projects/robemex', component:ROBEMEXProjectsComponent},
   {path:'companies/projects/rnet', component:RnetProjectsComponent},
   {path:'companies/projects/tatich-studio', component:TatichstudioProjectsComponent},
-  {path:'about', component:AboutHomeComponent},
 ];
 
 @NgModule({

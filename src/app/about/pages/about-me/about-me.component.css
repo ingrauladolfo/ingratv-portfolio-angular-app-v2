@@ -4,6 +4,6 @@ p{
 .my-paragraph{
     color: #ffffff;
 }
-span, h3{
+span, h3, strong{
     color: #ffffff;
 }

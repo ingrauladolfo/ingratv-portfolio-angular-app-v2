@@ -13,6 +13,7 @@ import { HomeModule } from './home/home.module';
 import { CompanyModule } from './company/company.module';
 import {CarouselModule} from 'primeng/carousel';
 import { AboutModule } from './about/about.module';
+import { SkillsModule } from './skills/skills.module';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { AboutModule } from './about/about.module';
     HomeModule,
     CompanyModule,
     AboutModule,
+    SkillsModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
