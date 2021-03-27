@@ -1,23 +1,10 @@
 .background{
     background: linear-gradient(90deg, #616d71,#393d42);
+    width: 100%;
+    height: calc(100%-10px);
+    background-size: cover;
+
 }
-.carousel-item{
-    border: 1px solid #e04f5f;
-}
-.carousel-item img{
-    max-width: 300px;
-}
-.carousel-caption h3{
-    font-size: 25px;
-    color: #e04f5f; 
-}
-.angular-material h3{
-    font-size: 25px;
-    color: #e04f5f; 
-    margin-top: -100px;
-}
-.bootstrap h3{
-    font-size: 25px;
-    color: #e04f5f; 
-    margin-top: 300px;
+.card{
+    background: #e4e2e2;
 }

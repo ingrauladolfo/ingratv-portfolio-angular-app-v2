@@ -8,6 +8,7 @@ import { HomeComponent } from './home/components/home/home.component';
 import { TatichstudioProjectsComponent } from './company/pages/tatichstudio-projects/tatichstudio-projects.component';
 import { AboutHomeComponent } from './about/pages/about-home/about-home.component';
 import { SkillsHomeComponent } from './skills/pages/skills-home/skills-home.component';
+import { ContactMeHomeComponent } from './contact-me/pages/contact-me-home/contact-me-home.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -17,6 +18,7 @@ const routes: Routes = [
   {path:'companies/projects/robemex', component:ROBEMEXProjectsComponent},
   {path:'companies/projects/rnet', component:RnetProjectsComponent},
   {path:'companies/projects/tatich-studio', component:TatichstudioProjectsComponent},
+  {path:'contact', component: ContactMeHomeComponent}
 ];
 
 @NgModule({
